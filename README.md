@@ -5,47 +5,64 @@ You are not expected to know HTML, CSS, JS and Bootstrap4 inorder to complete th
 Copy paste the code for respective branches from this template repo for completing this assignment.
 
 ### Goal of this assignment is to learn:
-1.	Creating Github account and configuring SSH key for working with remote 
-2.	Creating a new git repository from scratch
-3.	Linking local repo with the remote repo
-4.	Pushing local branches to the remote repo and making remote branch as the upstream branch 
-5.	Working with multiple branches by creating separate feature branch for each of the application features like
-   - header 
-   - footer
-   - add
-   - subtract
-   - multiple
-   - divide
-6.	Creating pull requests, doing code reviews and merging branches on remote github repo
-7.	Synchronizing local repo with remote repo via git pull & git fetch and git merge commands
-8.	Resolving merge conflicts and updating pull requests by pushing the local branch to remote tracking branch after conflict resolution
-9.	Tagging the source code in master branch for release
+- [x] Creating Github account & configuring SSH key 
+- [x] Creating a new local git repository from sratch 
+- [x] Linking local repo to the remote github repo 
+- [x] Working with feature branches 
+- [x] Setting upstream branches
+- [x] Raising pull requests 
+- [x] Doing code reviews via pull request
+- [x] Merging of branches on remote repo
+- [x] Pulling latest changes from the remote repo
+- [x] Resolving merge conflicts
+- [x] Tagging source code for the release
 
 
 ## Pay attention to the following points:
-1.	Repo name must be “SimpleCalculator”. It can’t be something else
-2.	Branch names must be master, develop, feature/header, feature/footer, feature/add, feature/subtract, feature/multiply, feature/divide
-3.	Commit messages must be same as what has been mentioned in the below steps
-4.	Number of pull requests must match and the content in those pull request must match
-5.	File contents in respective branches must match
-6.	Number of commits in each branch must match
+1.	Repo name must be “SimpleCalculator”. Don't use some other name. Pay attention to the case sensitivity
+2.	Make sure you use following as your branch names ('feature/' suffix is mandatory for each of the feature brnaches):
+   - master
+   - develop
+   - feature/header
+   - feature/footer
+   - feature/add
+   - feature/subtract
+   - feature/multiply
+   - feature/divide
+3.	Commit messages should be exactly same as what has been mentioned in the below steps
+4.	Number of pull requests must match and the file content in each of those pull request must exactly match with this repo's pull requests
+5.	File contents in each of the respective branches must match
+6.	Number of commits in each of the branch must match
 
-<b/>Note:</b> 
+#### Note:
 Make your repo public. Submitted assignments will be evaluated through a script and not adhering to the above mentioned guidelines will lead you to fail in the test. 
+
 Your completed assignment should look exactly same as this repo except the README file. 
+## Prerequisite for completing the assignment:
+1. Candidates must have an account on [Github](https://github.com/join)
+2. SSH key must be configured.
+   - [Github link to setup ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+   - [Medium article on setting up ssh](https://medium.com/devops-with-valentine/2021-how-to-set-up-your-ssh-key-for-github-on-windows-10-afe6e729a3c0)
+3. [Gitbash CLI](https://github.com/git-for-windows/git/releases/download/v2.37.0.windows.1/Git-2.37.0-64-bit.exe) has to be installed
 
 ## Steps for completing the assignment:
-1.	Create a new repository with name “SimpleCalculator” in your Github account. (Name of the repository must be “SimpleCalculator”)
-2.	Create an directory on your local machine with name SimpleCalculator (you can’t use any other name for your repository)
-3.	Add 3 empty files with names calculator.html, calculator.js and calculator.css into the SimpleCalculator directory
-4.	Convert SimpleCalculator into a git repository 
-5.	Stage all the newly added files and commit with message “Initial commit containing empty files for html, css and js” (Note: Use the exact message)
-6.	Setup Github SimpleCalculator repository as the remote repository for the local SimpleCalculator repo
-7.	Push local “master” branch to the remote repository by making remote “master” branch as the upstream branch
+#### Create new remote repo on github for collaboration
+   1. Create a new repository with name “SimpleCalculator” (name must be “SimpleCalculator”) in your Github account 
+#### Create local git repo and make your first commit
+   2. Create a new directory on your local machine with name SimpleCalculator (name must be “SimpleCalculator”)
+   3. Add 3 empty files with names calculator.html, calculator.js and calculator.css into the SimpleCalculator directory
+   4.	Convert SimpleCalculator folder into a git repository 
+   5.	Stage all the newly added files and commit with message “Initial commit containing empty files for html, css and js” (Note: Use the exact message)
+#### Linking local repo to the remote repo on github
+   6.	Setup Github SimpleCalculator repository as the remote repository for the local SimpleCalculator repo
+#### Push local branch to remote repo and set it as upstream branch 
+   7.	Push local “master” branch to the remote repository by making remote “master” branch as the upstream branch
+#### Creating develop branch to add code common 
 8.	Create a new branch with name “develop”
 9.	Update calculator.html file with 3 input elements and commit with message “Added card layout with 3 input elements, 2 for operands and 1 for result”
 Note: Get the contents from the second commit of the template repo
 10.	Push the local develop branch to remote repo with remote “develop” branch as the upstream branch
+Create separate feature branches for header, footer, add, subtract, multiply, divide
 11.	 Create 6 separate branches from the develop branch for header, footer, add, subtract, multiply and divide features. All feature branches must have “feature/” as prefix i.e, feature/header, feature/footer etc
 12.	Switch to header branch to add the header related code 
 13.	Stage all the changes and commit with message “Adding application header”
