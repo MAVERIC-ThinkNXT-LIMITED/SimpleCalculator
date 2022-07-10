@@ -39,10 +39,10 @@ Make your repo public. Submitted assignments will be evaluated through a script 
 Your completed assignment should look exactly same as this repo except the README file. 
 ## Prerequisite for completing the assignment:
 1. Candidates must have an account on [Github](https://github.com/join)
-2. SSH key must be configured.
+2. SSH key is configured on Github
    - [Github link to setup ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
    - [Medium article on setting up ssh](https://medium.com/devops-with-valentine/2021-how-to-set-up-your-ssh-key-for-github-on-windows-10-afe6e729a3c0)
-3. [Gitbash CLI](https://github.com/git-for-windows/git/releases/download/v2.37.0.windows.1/Git-2.37.0-64-bit.exe) has to be installed
+3. [Gitbash CLI is installed](https://github.com/git-for-windows/git/releases/download/v2.37.0.windows.1/Git-2.37.0-64-bit.exe) has to be installed
 
 ## Steps for completing the assignment:
 #### Create new remote repo on github for collaboration
