@@ -58,7 +58,7 @@ Your completed assignment should look exactly same as this repo except the READM
    7.	Push local “master” branch to the remote repository by making remote “master” branch as the upstream branch
 #### Creatd develop branch to add common code
 8.	Create a new branch with name “develop”
-9.	Update calculator.html file with a card layour containing 3 input elements.Commit the changes with message “Added card layout with 3 input elements, 2 for operands and 1 for result”
+9.	Update calculator.html file with a card layot containing 3 input elements.Commit the changes with message “Added card layout with 3 input elements, 2 for operands and 1 for result”
 10.	Push the local develop branch to remote repo with remote “develop” branch as the upstream branch
 #### Create separate feature branches for header, footer, add, subtract, multiply, divide
 11.	 Create 6 separate branches from the develop branch for header, footer, add, subtract, multiply and divide features. All feature branches must have “feature/” as prefix i.e, feature/header, feature/footer etc
