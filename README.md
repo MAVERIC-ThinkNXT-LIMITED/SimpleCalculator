@@ -3,7 +3,7 @@
 Let's learn day to day git commands and concepts by building a simple calculator application using HTML5, CSS3, Javascript and Bootstrap4.
 If you don't know HTML, CSS, JS and Bootstrap4 don't worry. This repo has all the code that is required to build the application. You just need to copy paste the code for respective branches from this template repo in order to complete this assignment.
 
-### Goal of this assignment is to make you learn:
+## Goal of this assignment is to make you learn:
 - [x] Creating Github account & configuring SSH key 
 - [x] Creating new local git repository from sratch 
 - [x] Linking local repo to the remote github repo 
