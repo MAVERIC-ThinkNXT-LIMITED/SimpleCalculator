@@ -56,41 +56,41 @@ Your completed assignment should look exactly same as this repo except the READM
    6.	Setup Github SimpleCalculator repository as the remote repository for the local SimpleCalculator repo
 #### Push local branch to remote repo and set it as upstream branch 
    7.	Push local “master” branch to the remote repository by making remote “master” branch as the upstream branch
-#### Creatd develop branch to add common code
+#### Create develop branch and add common code
 8.	Create a new branch with name “develop”
-9.	Update calculator.html file with a card layot containing 3 input elements.Commit the changes with message “Added card layout with 3 input elements, 2 for operands and 1 for result”
-10.	Push the local develop branch to remote repo with remote “develop” branch as the upstream branch
+9.	Update calculator.html file with a card layout containing 3 input elements.Commit the changes with message “Added card layout with 3 input elements, 2 for operands and 1 for result”
+10.	Push the local develop branch to the remote repo and set the remote “develop” branch as the upstream branch
 #### Create separate feature branches for header, footer, add, subtract, multiply, divide
 11.	 Create 6 separate branches from the develop branch for header, footer, add, subtract, multiply and divide features. All feature branches must have “feature/” as prefix i.e, feature/header, feature/footer etc
 #### Complete the header feature
-12.	Switch to header branch to add the header related code 
+12.	Switch to header branch to add the header related code. Copy code from this repo's header branch
 13.	Stage all the changes and commit with message “Adding application header”
-14.	Push the feature/header branch to remote repo by setting up the upstream branch
+14.	Push the feature/header branch to the remote repo and set the remote feature/header branch as the upstream branch
 15.	Raise pull request with feature/header as source branch and develop as the target/destination branch
 #### Complete the footer feature
 17.	Checkout to footer branch and add footer feature related code
 18.	Stage all the changes and commit with message “Adding application footer”
-19.	Push the feature/footer branch to remote repo by setting up the upstream branch
+19.	Push the feature/footer branch to the remote repo and set the remote feature/footer branch as the upstream branch
 20.	Raise pull request with feature/footer as source branch and develop as the target/destination branch
 #### Complete the add feature
 21.	Checkout to add branch and add the addition related code
 22.	Stage all the changes and commit with message “Adding addition feature to the app”
-23.	Push the feature/add branch to remote repo by setting up the upstream branch
+23.	Push the feature/add branch to the remote repo and set the remote feature/add branch as the upstream branch
 24.	Raise pull request with feature/add as source branch and develop as the target/destination branch
 #### Complete the subtract feature
 25.	Checkout to subtract branch and add the subtraction related code
 26.	Stage all the changes and commit with message “Adding subtract feature to the app”
-27.	Push the feature/subtract branch to remote repo by setting up the upstream branch
+27.	Push the feature/subtract branch to the remote repo and set the remote feature/subtract branch as the upstream branch
 28.	Raise pull request with feature/subtract as source branch and develop as the target/destination branch
 #### Complete the multiply feature
 29.	Checkout to multiply branch and add the addition related code
 30.	Stage all the changes and commit with message “Adding multiply feature to the app”
-31.	Push the feature/multiply branch to remote repo by setting up the upstream branch
+31.	Push the feature/multiply branch to the remote repo and set the remote feature/multiply branch as the upstream branch
 32.	Raise pull request with feature/multiply as source branch and develop as the target/destination branch
 #### Complete the divide feature
 33.	Checkout to divide branch and add the addition related code
 34.	Stage all the changes and commit with message “Adding divide feature to the app”
-35.	Push the feature/divide branch to remote repo by setting up the upstream branch
+35.	Push the feature/divide branch to the remote repo and set the remote feature/divide branch as the upstream branch
 36.	Raise pull request with feature/divide as source branch and develop as the target/destination branch
 #### Merge header branch with develop
 37.	Merge feature/header branch into develop branch after code review
