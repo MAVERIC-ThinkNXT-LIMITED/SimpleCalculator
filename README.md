@@ -1,10 +1,9 @@
 # Assignment
 
-Build a simple calculator application using HTML5, CSS3, Javascript and Bootstrap4.
-You are not expected to know HTML, CSS, JS and Bootstrap4 inorder to complete this assignment.
-Copy paste the code for respective branches from this template repo for completing this assignment.
+Let's learn day to day git commands and concepts by building a simple calculator application using HTML5, CSS3, Javascript and Bootstrap4.
+If you don't know HTML, CSS, JS and Bootstrap4 don't worry. This repo has all the code that is required to build the application. You just need to copy paste the code for respective branches from this template repo in order to complete this assignment.
 
-### Goal of this assignment is to learn:
+### Goal of this assignment is to make you learn:
 - [x] Creating Github account & configuring SSH key 
 - [x] Creating new local git repository from sratch 
 - [x] Linking local repo to the remote github repo 
@@ -19,8 +18,8 @@ Copy paste the code for respective branches from this template repo for completi
 
 
 ## Pay attention to the following points:
-1.	Repo name must be “SimpleCalculator”. Don't use some other name. Pay attention to the case sensitivity
-2.	Make sure you use following as your branch names ('feature/' suffix is mandatory for each of the feature brnaches):
+1.	Make sure name of your repo in Github is “SimpleCalculator”. Don't use some other name. Pay attention to the case sensitivity
+2.	Make sure your repo has following branches ('feature/' suffix is mandatory for each of the feature branches):
    - master
    - develop
    - feature/header
@@ -29,10 +28,10 @@ Copy paste the code for respective branches from this template repo for completi
    - feature/subtract
    - feature/multiply
    - feature/divide
-3.	Commit messages should be exactly same as what has been mentioned in the below steps
-4.	Number of pull requests must match and the file content in each of those pull request must exactly match with this repo's pull requests
-5.	File contents in each of the respective branches must match
-6.	Number of commits in each of the branch must match
+3.	Make sure commit messages matches with the respective message in the below mentioned steps
+4.	Number of pull requests in your repo must match with this template repo. Also the pull request content must also match
+5.	Content of latest commit in each of your feature, develop and master branch must match with the respective branches in this repo
+6.	Number of commitsin each of your feature, develop and master branch must match with the respective branches in this repo
 
 #### Note:
 Make your repo public. Submitted assignments will be evaluated through a script and not adhering to the above mentioned guidelines will lead you to fail in the test. 
@@ -93,19 +92,24 @@ Your completed assignment should look exactly same as this repo except the READM
 34.	Stage all the changes and commit with message “Adding divide feature to the app”
 35.	Push the feature/divide branch to remote repo by setting up the upstream branch
 36.	Raise pull request with feature/divide as source branch and develop as the target/destination branch
-#### Merging feature branches after doing code review and merge conflict resolution
+#### Merge header branch with develop
 37.	Merge feature/header branch into develop branch after code review
+#### Merge footer branch with develop
 38.	Resolve merge conflicts in feature/footer branch and push the code to the upstream feature/footer branch
 39.	Merge remote feature/footer branch to remote develop branch 
+#### Merge add branch with develop
 40.	Resolve merge conflicts in feature/add branch and push the code to the upstream feature/add branch
 41.	Merge remote feature/add branch to remote develop branch 
+#### Merge header subtract with develop
 42.	Resolve merge conflicts in feature/subtract branch and push the code to the upstream feature/subtract branch
 43.	Merge remote feature/subtract branch to remote develop branch 
+#### Merge header branch with multiply
 44.	Resolve merge conflicts in feature/multiply branch and push the code to the upstream feature/footer branch
 45.	Merge remote feature/multiply branch to remote develop branch 
+#### Merge header branch with divide
 46.	Resolve merge conflicts in feature/divide branch and push the code to the upstream feature/footer branch
 47.	Merge remote feature/divide branch to remote develop branch 
-#### Merging develop branc to master branch for pushing the code to production environment
+#### Merging develop branch to master branch 
 48.	Raise a pull request with develop as source branch and master as destination branch
 49.	Merge the pull request
 50.	Update local develop and master branches
@@ -125,6 +129,16 @@ Suppose there is a merge conflict in one of the feature branch then you need to 
 5. Resolve all the merge conflicts by opening the files having conflict in your favourtie editor
 6. Stage all the resolved files via “git add <file-name>” 
 7. Complete the merge by commiting the staged changes git commit -m “Commit message” 
-8. Push the merged changes to the corresponding remote feature branch via “git push” 
+8. Push the merged changes to the corresponding remote feature branch via “git push” (assuming upstream branch has been already setup for your local feature branch)
 9. Merge the pull request in remote github repo
 
+
+## References:
+ - [Free 1 hr youtube video for Git beginner. Teaches key concepts and commands](https://www.youtube.com/watch?v=8JJ101D3knE)
+ - [Free1.45 minutes youtube video for beginners teaching key concepts and commands](https://www.youtube.com/watch?v=8JJ101D3knE)
+ - [Free 25 minutes youtube video for beginners teaching  Git & Gitbash](https://www.youtube.com/watch?v=iGutIN5t9Mo)
+ - [Cheat sheet containing key concepts and everyday used git commands](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+ - [Git book. Candidates are expected to go Chapters 1, 2, 3, 6](https://git-scm.com/book/en/v2)
+
+
+ 
