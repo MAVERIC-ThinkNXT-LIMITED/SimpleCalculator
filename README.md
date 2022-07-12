@@ -46,6 +46,9 @@ Your completed assignment should look exactly same as this repo except the READM
 3. [Gitbash CLI is installed](https://github.com/git-for-windows/git/releases/download/v2.37.0.windows.1/Git-2.37.0-64-bit.exe) has to be installed
 
 ## Steps for completing the assignment:
+
+#### Note: Follow the exact sequence for the steps mentioned below
+
 #### Create new remote repo on github for collaboration
    1. Create a new repository with name “SimpleCalculator” (name must be “SimpleCalculator”) in your Github account 
 #### Create local git repo and make your first commit
