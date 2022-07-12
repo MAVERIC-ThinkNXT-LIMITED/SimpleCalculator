@@ -120,6 +120,7 @@ Your completed assignment should look exactly same as this repo except the READM
 51.	Checkout to master branch
 #### Tagging code on master branch for the release
 52.	Create an annotated tag with name “v1.0” and message “First version of SimpleCalulator app with add, subtract, multiply and divide features”
+#### Note: Tag has to be annotated tag not a lightweight tag
 53.	Push the tag to the remote repo
 
 
