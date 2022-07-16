@@ -15,7 +15,7 @@ If you don't know HTML, CSS, JS and Bootstrap4 don't worry. This repo has all th
 - [x] Pulling latest changes from the remote repo
 - [x] Resolving merge conflicts
 - [x] Tagging source code for the release
-- [x] Learn day to day git commands and git command line interface
+- [x] Learn day to day git commands vit git command line interface
 
 
 ## Pay attention to the following points:
