@@ -137,7 +137,65 @@ Suppose there is a merge conflict in one of the feature branch then you need to 
 8. Push the merged changes to the corresponding remote feature branch via “git push” (assuming upstream branch has been already setup for your local feature branch)
 9. Merge the pull request in remote github repo
 
+## Some of the most commonly used git commands with useful options:
+   
+### Command for initial setup:
+git config --global user.name <Your name>
+git config --global user.email <Your email>
 
+### Command to get help on any particular git command:
+git help <command-name>
+git <command-name> --help
+man git-<command-name>
+
+
+### Command to get a new repo or an already existing repo:
+git init - command to initialise a new git repo inside a non git folder
+git clone - create or download a already existing git repo by using url
+
+
+### Command to make changes to the git repo:
+git add - move the changes from working directory to staging already
+git commit  - commit the changes in staging area to git repo
+git status - check the status of git repo for modified, deleted or added files
+git log - to see the commit history
+git diff - to see the contents of the changed files
+
+### Commands to work with git branches:
+git branch <branch-name> - to create a new branch
+git branch -  to view the list of branches in local repo
+git branch -r - to see the list of remote branches
+git branch  -d <branch-name> - to delete a already merged branch
+git branch -D <branch-name> - to forcefully delete a unmerged branch
+git checkout -b <branch-name> - to create a new branch and checkout to the newly created branch
+git checkout --track -b <branch-name> origin/<branch-name> - to create a new branch tracking the remote origin branch and checkout into newly created branch
+
+### Command for undoing changes:
+git reset HEAD * - unstage all the staged changes
+git restore --staged * - unstage all the staged changes
+git checkout -- <file> - to revert back any changes to the file 
+
+### Command to synchronise local repo with remote repo
+git remote add origin <github-repo-url>
+git push - push your changes from local to remote repo
+git pull - update you local current branch with the latest changes in the reemote tracking branch
+git push origin --delete branch-name - to delete a remote branch
+git fetch - to update remote tracking branches and to get any new branches added in the remote repo
+
+### Command to merge branches two branches:
+git merge <source-branch> - to merge changes from source branch to current branch
+git rebase <source-branch> - to rebase current branch changes on top of source branch commits(creates a new commit id for the feature branch commits)
+
+
+### Command to tag code for releases:
+git tag -a <tagname> -m <msg> - to create a annotated tag pointing to current branch head
+git tag <tagname>  - creates lightweight tag with the given name
+   
+*** Ignoring unwanted folders and files:
+.gitignore - file containing the  list of all files and folders that needs to be ignored by git
+
+ 
+   
 ## References:
  - [Free 1 hr youtube video for Git beginner. Teaches key concepts and commands](https://www.youtube.com/watch?v=8JJ101D3knE)
  - [Free 1.45 minutes youtube video for beginners teaching key concepts and commands](https://www.youtube.com/watch?v=8JJ101D3knE)
