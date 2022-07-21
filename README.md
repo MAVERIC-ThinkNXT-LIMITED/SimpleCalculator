@@ -191,7 +191,7 @@ Suppose there is a merge conflict in one of the feature branch then you need to 
 - git tag -a <tagname> -m <msg> - to create a annotated tag pointing to current branch head
 - git tag <tagname>  - creates lightweight tag with the given name
    
-*** Ignoring unwanted folders and files:
+### Ignoring unwanted folders and files:
 - .gitignore - file containing the  list of all files and folders that needs to be ignored by git
 
  
