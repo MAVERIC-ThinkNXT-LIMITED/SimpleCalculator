@@ -197,6 +197,7 @@ Suppose there is a merge conflict in one of the feature branch then you need to 
  
    
 ## References:
+ - [One of the best free youtube git turtorial by Kunal Khushawa](https://www.youtube.com/watch?v=apGV9Kg7ics&t=2729s)
  - [Free 1 hr youtube video for Git beginner. Teaches key concepts and commands](https://www.youtube.com/watch?v=8JJ101D3knE)
  - [Free 1.45 minutes youtube video for beginners teaching key concepts and commands](https://www.youtube.com/watch?v=8JJ101D3knE)
  - [Edureka video on youtube covering most of the commands](https://www.youtube.com/watch?v=b5oQZdzA37I)
