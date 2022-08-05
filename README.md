@@ -16,8 +16,6 @@ If you don't know HTML, CSS, JS and Bootstrap4 don't worry. This repo has all th
 - [x] Resolving merge conflicts
 - [x] Tagging source code for the release
 - [x] Learn day to day git commands vit git command line interface
-
-
 ## Pay attention to the following points:
 1.	Make sure name of your repo in Github is “SimpleCalculator”. Don't use some other name. Pay attention to the case sensitivity
 2.	Make sure your repo has following branches ('feature/' suffix is mandatory for each of the feature branches):
@@ -48,7 +46,6 @@ Your completed assignment should look exactly same as this repo except the READM
 ## Steps for completing the assignment:
 
 #### Note: Follow the exact sequence for the steps mentioned below
-
 #### Create new remote repo on github for collaboration
    1. Create a new repository with name “SimpleCalculator” (name must be “SimpleCalculator”) in your Github account 
 #### Create local git repo and make your first commit
@@ -123,6 +120,11 @@ Your completed assignment should look exactly same as this repo except the READM
 #### Note: Tag has to be annotated tag not a lightweight tag
 53.	Push the tag to the remote repo
 
+## Branching Guidelines
+
+![Maveric Git Branching Stratergy](./branching-guideline.png)
+
+![Maveric Git Branching structure](./branching-explained.png)
 
 ## Steps for resolving merge conflict:
 Suppose there is a merge conflict in one of the feature branch then you need to follow below mentioned steps for resolving the merge conflict:
