@@ -1,6 +1,7 @@
 # Assignment
 
 Let's learn day to day git commands and concepts by building a simple calculator application using HTML5, CSS3, Javascript and Bootstrap4.
+
 If you don't know HTML, CSS, JS and Bootstrap4 don't worry. This repo has all the code that is required to build the application. You just need to copy paste the code for respective branches from this template repo in order to complete this assignment.
 
 ## Goal of this assignment is to make you learn:
@@ -15,7 +16,8 @@ If you don't know HTML, CSS, JS and Bootstrap4 don't worry. This repo has all th
 - [x] Pulling latest changes from the remote repo
 - [x] Resolving merge conflicts
 - [x] Tagging source code for the release
-- [x] Learn day to day git commands vit git command line interface
+- [x]  Day to day git commands vit git command line interface
+
 ## Pay attention to the following points:
 1.	Make sure name of your repo in Github is “SimpleCalculator”. Don't use some other name. Pay attention to the case sensitivity
 2.	Make sure your repo has following branches ('feature/' suffix is mandatory for each of the feature branches):
@@ -196,7 +198,53 @@ Suppose there is a merge conflict in one of the feature branch then you need to 
 ### Ignoring unwanted folders and files:
 - .gitignore - file containing the  list of all files and folders that needs to be ignored by git
 
- 
+## Concepts/topics that every developer must know in order to use Git effectively
+
+- [X] What is Source code management tool, Why SCM is required?
+- [X] Various types of version control systems(Local, Central, Distributed)
+- [X] What is Git?
+- [X] What makes Git unique?
+    - ease of branching
+    - integrity
+    - distributed nature
+    - almost every operation is local
+    - entire repo state(snapshot) instead of just changes(delta)
+- [X] Common operations that we perform on project source code
+    - saving new changes done as part of new feature development or defect fixes
+    - checking in latest changes
+    - pulling changes done by team members
+    - creating separate branch 
+    - Code reviews
+    - raising pull requests
+    - merging of topic/feature branches
+- [X] Local repo and remote repo
+- [X] Diff between Git and Github
+- [X] Remote tracking branches
+- [x] Pull requests, why are they required?
+- [X] Different ways to merge branches
+- [X] Merge vs Rebase
+- [X] Day to day git commands
+    -   init
+    -   clone
+    -   add
+    -   commit
+    -   push
+    -   pull
+    -   restore
+    -   status
+    -   diff
+    -   log
+    -   remote
+    -   branch
+    -   merge
+    -   rebase
+    -   stage
+    -   tracking
+    -   fetch
+    -   checkout/switch
+- [X] Tagging code
+- [X] Annotated vs Lightweight tags
+- [X] Commonly followed branching stratergy
    
 ## References:
  - [One of the best free youtube git turtorial by Kunal Khushawa](https://www.youtube.com/watch?v=apGV9Kg7ics&t=2729s)
