@@ -218,6 +218,17 @@ Suppose there is a merge conflict in one of the feature branch then you need to 
     - raising pull requests
     - merging of topic/feature branches
 - [X] Local repo and remote repo
+- [X] Different stages in a git repo
+- [X] Undoing the changes
+- [x] Branching guidelines
+- [x] Working with remote repos 
+   - setting up github account
+   - configuring ssh key
+   - configuring username and email,
+   - creating feature and bugfix branches as per the maveric branching guidelines,
+   - pull requests
+   - code review
+   - conflict resolution and merging
 - [X] Diff between Git and Github
 - [X] Remote tracking branches
 - [x] Pull requests, why are they required?
